@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+OPENROUTER_API_KEY
+
+# Generated model outputs
+outputs_llm/*.json
+
+# Logs
+*.log
